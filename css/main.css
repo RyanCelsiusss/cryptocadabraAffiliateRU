@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+body {
+  /* background-color: black; */
+  /* color: white; */
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  line-height: 1.56;
+  color: white;
+  background-color: #121619;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+/* Header */
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__picture {
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+}
+/* Instruction */
+
+.affiliate__rates {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #5cffe4;
+}
+
+.instruction-list {
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 2px dashed #5cffe4;
+}
+
+.instruction-list__title {
+    margin-bottom: 15px;
+}
+
+.instruction__heading {
+    color: #5cffe4;
+}
+
+.instruction__description {
+  margin-bottom: 25px;
+}
+
+.step-1 {
+  margin-bottom: 15px;
+}
+
+.binance {
+  border: 2px solid orange;
+  align-items: center;
+}
+
+.binance__link {
+  align-items: center;
+}
+
+/* Steps */
+
+.steps {
+  display: flex;
+}
+
+/* Stock list */
+
+.stock-list {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stock__logo {
+  height: 150px;
+  width: 150px;
+}
+
+.stock__description {
+    margin-bottom: 10px;
+}
+
+.stock__button {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.stock__button--binance {
+  border: 1px solid orange;
+}
+
+.stock__button--binance:hover {
+  color: black;
+  background-color: orange;
+}
+
+.stock__button--huobi {
+  border: 1px solid cornflowerblue;
+}
+
+.stock__button--huobi:hover {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.stock__button--gate {
+  border: 1px solid salmon;
+}
+
+.stock__button--gate:hover {
+  color: white;
+  background-color: salmon;
+}
+
+.stock__button--bybit {
+  border: 1px solid darkgoldenrod;
+}
+
+.stock__button--bybit:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+.stock__button--okx {
+  border: 1px solid rgb(77, 77, 252);
+}
+
+.stock__button--okx:hover {
+  background: rgb(77, 77, 252);
+  color: white;
+}
+
+.instruction__description--telegram {
+    text-decoration: underline;
+}
